@@ -1,0 +1,22 @@
+{{define "/chat/index.shtml"}}
+<!DOCTYPE html>
+<html>
+<head>
+    {{template "/chat/head.shtml"}}
+</head>
+<body>
+{{template "/chat/tabmenu.shtml"}}
+<header class="mui-bar mui-bar-nav">
+</header>
+<div class="mui-content" id="pageapp">
+
+    {{template "/chat/contact.shtml"}}
+    {{template "/chat/group.shtml"}}
+    {{template "/chat/profile.shtml"}}
+    {{template "/chat/main.shtml"}}
+
+</div>
+</body>
+</html>
+{{template "/chat/foot.shtml"}}
+{{end}}
